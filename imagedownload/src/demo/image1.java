@@ -13,7 +13,7 @@ public class image1 {
         blob obj = new blob();
 
 
-        File f = new File("/Users/sahilkairon/Desktop/demo.jpeg");
+        File f = new File("EnterFileNameHere");
         f.createNewFile();
         FileOutputStream out = new FileOutputStream(f);
         BufferedOutputStream buffout = new BufferedOutputStream(out);
